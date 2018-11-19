@@ -1,0 +1,35 @@
+.titlebar {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: grey;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+}
+
+.menuButton {
+	padding: 15px;
+	position: absolute;
+  	height: 69px
+  }
+
+.menuButton:hover {
+	background: darkgrey;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	.menuButton {
+	  position: absolute;
+	  height: 52px
+	}
+}
+
